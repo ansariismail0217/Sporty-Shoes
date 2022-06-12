@@ -12,7 +12,7 @@ node {
         sh "mvn clean install"
     }
 
-    stage("Image Pune"){
+    stage("Image Prune"){
          sh "docker image prune -f"
     }
 
